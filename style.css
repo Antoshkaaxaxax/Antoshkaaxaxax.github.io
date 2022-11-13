@@ -1,0 +1,74 @@
+h1{
+    font-family: Verdana;
+}
+
+a{
+    font-family: Verdana;
+    color:antiquewhite;
+}
+
+dr3{
+    font-family: Verdana;
+    color:antiquewhite;
+}
+
+dr2{
+    font-family: Verdana;
+    color: rgb(228, 164, 68);
+}
+
+img{
+    border: 2px solid antiquewhite;
+}
+
+aside{
+    background-color: rgb(237, 192, 125);
+    border: 2px solid black;
+}
+
+dr1{
+    font-family: Verdana;
+    background-color: rgb(237, 192, 125);
+    border: 2px solid black;
+    color:antiquewhite;
+}
+
+h1,
+article{
+    color: antiquewhite;
+    font-family: Verdana;
+}
+
+h1,
+a,
+article{
+    background-color: rgb(237, 192, 125);
+    border: 2px solid black;
+}
+
+main,
+header{
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
+
+* {
+    position: relative;
+    padding: 25px 25px 20px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+*:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+*::before {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 10px;
+    letter-spacing: 0.04em;
+}
